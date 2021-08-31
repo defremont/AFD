@@ -42,10 +42,6 @@ cadeias.forEach((cadeia) => {
           console.log("Estado atual:", this.estado);
           this.mudarEstado("q2");
         },
-        c: function () {
-          console.log("Estado atual:", this.estado);
-          this.mudarEstado("q4");
-        },
       },
     },
     enviaChar(caractere) {

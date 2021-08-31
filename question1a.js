@@ -7,6 +7,7 @@ cadeias.forEach((cadeia) => {
         0: function () {
           console.log("Estado atual:", this.estado);
           // console.log("Leu o caractere 0");
+          this.mudarEstado("q1");
         },
         1: function () {
           console.log("Estado atual:", this.estado);
@@ -26,11 +27,6 @@ cadeias.forEach((cadeia) => {
           console.log("Estado atual:", this.estado);
           // console.log("Leu o caractere 0");
           this.mudarEstado("q1");
-        },
-        1: function () {
-          console.log("Estado atual:", this.estado);
-          // console.log("Leu o caractere 1");
-          this.mudarEstado("q2");
         },
       },
     },

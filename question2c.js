@@ -35,10 +35,6 @@ cadeias.forEach((cadeia) => {
         },
       },
       q4: {
-        a: function () {
-          console.log("Estado atual:", this.estado);
-          this.mudarEstado("q5");
-        },
         b: function () {
           console.log("Estado atual:", this.estado);
           this.mudarEstado("q4");
@@ -74,8 +70,8 @@ cadeias.forEach((cadeia) => {
   });
   if (
     (AFDTeste.estado === "q4") |
-      (AFDTeste.estado === "q1") |
-      (AFDTeste.estado === "q2") &&
+    (AFDTeste.estado === "q1") |
+    (AFDTeste.estado === "q2") &&
     !AFDTeste.error
   ) {
     console.log("Estado atual: " + AFDTeste.estado);

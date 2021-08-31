@@ -126,6 +126,7 @@ function reconhecedor(padrao, texto) {
       console.log("Padrão encontrado no index " + (j - estadoFinal + 1 + 1)); //normalização por conta do caractere vazio
     }
   }
+  console.log(afd);
 }
 
 function calculaEstado(padrao, estadoFinal, estado, codigoCaractere) {

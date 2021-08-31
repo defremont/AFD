@@ -23,14 +23,6 @@ cadeias.forEach((cadeia) => {
           console.log("Estado atual:", this.estado);
           this.mudarEstado("q1");
         },
-        b: function () {
-          console.log("Estado atual:", this.estado);
-          this.mudarEstado("q8");
-        },
-        c: function () {
-          console.log("Estado atual:", this.estado);
-          this.mudarEstado("q8");
-        },
       },
       q3: {
         a: function () {
